@@ -1,2 +1,10 @@
 # project-euler
-Got a craving for some puzzles - https://projecteuler.net/archives
+
+Typescript solutions for some of the Project Euler puzzles at https://projecteuler.net/archives.
+
+## Install and run
+
+```
+$ npm ci
+$ npm start
+```
