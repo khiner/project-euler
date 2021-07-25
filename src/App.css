@@ -1,3 +1,6 @@
+.Problem p:first-child {
+  margin-top: 0;
+}
 .Problem p:last-child {
   margin-bottom: 0;
 }

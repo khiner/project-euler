@@ -22,7 +22,7 @@ export default function Problem() {
         className="Description"
         style={{ padding: 10, borderRadius: 8, border: '1px solid #d3adf7', background: '#efdbff' }}
       >
-        <div style={{ fontWeight: 'bold', fontSize: 20 }}>Description</div>
+        <div style={{ fontWeight: 'bold', fontSize: 20, marginBottom: '1em' }}>Description</div>
         <div dangerouslySetInnerHTML={{ __html: problemHtml }}></div>
       </div>
       <div
@@ -35,7 +35,7 @@ export default function Problem() {
           background: '#f6ffed',
         }}
       >
-        <div style={{ fontWeight: 'bold', fontSize: 20 }}>Solution</div>
+        <div style={{ fontWeight: 'bold', fontSize: 20, marginBottom: '1em' }}>Solution</div>
         <Suspense fallback={<div>Loading...</div>}>
           <SolutionComponent />
         </Suspense>

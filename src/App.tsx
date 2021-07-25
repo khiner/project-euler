@@ -31,7 +31,17 @@ function Problems() {
           ))}
         </ul>
       </nav>
-      <div style={{ position: 'fixed', left: 150, top: 0, bottom: 0, overflowY: 'scroll', padding: 10 }}>
+      <div
+        style={{
+          position: 'fixed',
+          left: 150,
+          top: 0,
+          bottom: 0,
+          right: 0,
+          overflowY: 'scroll',
+          padding: 10,
+        }}
+      >
         <Switch>
           <Route path={`${match.path}/:problemNumber`}>
             <Problem />
